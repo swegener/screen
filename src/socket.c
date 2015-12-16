@@ -774,6 +774,7 @@ void ReceiveMsg()
 		 * window. Then we create the window without having a display.
 		 * Resulting in another inactive window.
 		 */
+		fore = NULL;
 		ExecCreate(&m);
 		break;
 	case MSG_CONT:
