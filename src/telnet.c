@@ -41,7 +41,6 @@
 
 extern Window *fore;
 extern Layer *flayer;
-extern int visual_bell;
 extern char screenterm[];
 extern int af;
 
